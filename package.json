@@ -1,0 +1,35 @@
+{
+  "name": "@syncswap/zksync-weth9",
+  "description": "The WETH9 contract for zkSync 2.0.",
+  "version": "1.0.0",
+  "homepage": "https://zksync.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syncswap/zksync-weth9"
+  },
+  "keywords": [
+    "weth",
+    "zksync",
+    "ethereum"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-deploy": "^0.3.0",
+    "@matterlabs/hardhat-zksync-solc": "^0.3.4",
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethereumjs-util": "^7.1.4",
+    "ethers": "^5.6.1",
+    "hardhat": "^2.9.1",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2",
+    "zksync-web3": "^0.7.4"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3"
+  }
+}
